@@ -4,10 +4,10 @@ Task 1: a neural network to get a RGB color vector from a word
 
 Approach and model:
 
-    Tokenization at word level,
-    GloVe pre-trained embeddings with 42B words, trained on Common Crawl and with dimension 300,
-    Archictecture: embedding layer, single bidirectional LSTM, two dropout layers, one final dense layer,
-    training with mean squared error as loss, adamax as optimizer.
+- Tokenization at word level,
+- GloVe pre-trained embeddings with 42B words, trained on Common Crawl and with dimension 300,
+- Archictecture: embedding layer, single bidirectional LSTM, two dropout layers, one final dense layer,
+- training with mean squared error as loss, adamax as optimizer.
 
 Task 2: a neural network to get a word from a RGB color vector
 
