@@ -1,6 +1,6 @@
-#Deep learning of colour and colours names
+# Deep learning of colour and colours names
 
-##Task 1: a neural network to get a RGB color vector from a word
+## Task 1: a neural network to get a RGB color vector from a word
 
 Approach and model:
 
@@ -9,7 +9,7 @@ Approach and model:
 - Archictecture: embedding layer, single bidirectional LSTM, two dropout layers, one final dense layer,
 - training with mean squared error as loss, adamax as optimizer.
 
-##Task 2: a neural network to get a word from a RGB color vector
+## Task 2: a neural network to get a word from a RGB color vector
 
 Approach and model:
 
